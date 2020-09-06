@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 style="color:green">Results = {{result}}</h1>
+<button  onclick="goBack()">BACK</button>
+<script>
+    function goBack(){
+    window.history.back();
+    }
+</script>
+
+{% endblock %}
